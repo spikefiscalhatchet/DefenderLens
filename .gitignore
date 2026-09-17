@@ -1,0 +1,51 @@
+# Build output
+bin/
+obj/
+out/
+build/
+dist/
+publish/
+*.exe
+*.dll
+*.pdb
+*.zip
+*.7z
+*.rar
+
+# IDE
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.userprefs
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Logs & runtime
+*.log
+logs/
+temp/
+tmp/
+*.tmp
+crashdumps/
+
+# User data / local config
+config.local.*
+*.local.json
+settings.user.*
+
+# NuGet
+packages/
+*.nupkg
+*.snupkg
+project.lock.json
+
+# Secrets
+.env
+*.key
+*.pem
+secrets.*
